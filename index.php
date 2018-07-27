@@ -7,9 +7,13 @@
   <body>
     <p>
 <?php
+/*Détermination de la variable $pas*/
   $pas = 1;
+  /*Boucle while*/
   while($pas <= 15){
+    /*Affichage*/
     echo $pas . ' pas, on y est presque <br />';
+    /*Incrémentation du nombre de pas*/
     $pas ++;
   }
 ?>
